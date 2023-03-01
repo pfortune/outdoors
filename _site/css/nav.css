@@ -1,0 +1,24 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-colour);
+  padding: 1rem;
+  color: var(--text-colour);
+  list-style-type: none;
+}
+
+nav li {
+  padding: 0.5em 2em 0.5em 2em;
+}
+
+nav a {
+  color: var(--link-colour);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: var(--secondary-colour);
+}

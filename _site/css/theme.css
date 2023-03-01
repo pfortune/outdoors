@@ -1,0 +1,31 @@
+/* Font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+:root {
+  --primary-colour: #1f2f54;
+  --secondary-colour: #8dd8f8;
+  --text-colour: #5d7b3f;
+  --link-colour: #29a5e5;
+  --background-colour: #f5f5f5;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary-colour);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--primary-colour);
+}
+
+p,
+ul,
+ol {
+  font-size: 1rem;
+  color: var(--text-colour);
+}
