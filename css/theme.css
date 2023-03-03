@@ -1,36 +1,26 @@
-/* Colors */
-:root {
-  --primary-colour: #1f2f54;
-  --secondary-colour: #8dd8f8;
-  --text-colour: #5d7b3f;
-  --link-colour: #29a5e5;
-  --background-colour: #263321;
-}
-
-/* Font */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--background-colour);
+  line-height: 1.6em;
+  font-size: 1.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container {
-  background-color: var(--secondary-colour);
+h1,
+h2 {
+  color: #007e7e;
 }
 
-/* Typography */
 h1 {
-  font-size: 2.5rem;
-  color: var(--primary-colour);
+  font-size: 150%;
 }
 
 h2 {
-  font-size: 2rem;
-  color: var(--primary-colour);
+  font-size: 130%;
 }
 
-p,
-ul,
-ol {
-  font-size: 1rem;
-  color: var(--text-colour);
+p {
+  color: maroon;
+}
+
+header {
+  background-color: #dddeda;
 }
