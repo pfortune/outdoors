@@ -1,5 +1,6 @@
 .large {
   display: block;
+  border-radius: 10px;
   height: 500px;
 }
 
