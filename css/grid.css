@@ -1,0 +1,40 @@
+/* Grid & Flexbox*/
+body {
+  display: grid;
+  grid-template-columns: 10% 20% 20% 20% 10%;
+  grid-gap: 5%;
+}
+
+header {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: grid;
+}
+
+article {
+  grid-column-start: 1;
+}
+
+aside {
+  grid-column-start: 2;
+}
+
+footer {
+  grid-column-start: 2;
+}

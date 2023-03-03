@@ -1,0 +1,8 @@
+.large {
+  display: block;
+  height: 200px;
+}
+
+.center {
+  margin: 0 auto;
+}

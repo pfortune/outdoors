@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.container {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+}
+
+.logo {
+  grid-column-start: 3;
+}
+
+header {
+  grid-column-start: 2;
+}
+
+#maincontent {
+  grid-column-start: 2;
+}

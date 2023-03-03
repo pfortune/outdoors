@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <div class="container">
+    <main class="container">
+      <img src="/images/logo.png" class="logo center">
 
       <header>{%include "nav.njk"%}</header>
 
-      <main>
+      <section id="maincontent">
         {{ content | safe }}
-      </main>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
