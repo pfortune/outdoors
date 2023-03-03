@@ -1,7 +1,7 @@
 <nav>
-    <a href="index.html">Home</a>
-    <a href="report.html">Report</a>
-    <a href="index.html">Gear List</a>
-    <a href="index.html">Route</a>
-    <a href="index.html">Photos</a>
+    {% set navPages = collections.all | eleventyNavigation %}
+    {%- for entry in navPages %}
+        <a href="{{ entry.url | url }}" {% if entry.url == page.url %} class="active" {% endif %}>{{ entry.title }}</a>
+
+    {%- endfor %}
 </nav>
