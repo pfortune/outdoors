@@ -1,24 +1,41 @@
-nav ul {
-  display: flex;
-  justify-content: space-between;
+nav #main ul {
   align-items: center;
-  background-color: var(--primary-colour);
+  background-color: green;
   padding: 1rem;
-  color: var(--text-colour);
   list-style-type: none;
 }
 
-nav li {
+nav #main li {
   padding: 0.5em 2em 0.5em 2em;
 }
 
-nav a {
-  color: var(--link-colour);
+nav #main a {
+  color: blue;
   text-decoration: none;
   font-weight: bold;
   margin-right: 1rem;
 }
 
-nav a:hover {
-  color: var(--secondary-colour);
+nav #main a:hover {
+  color: red;
+}
+
+nav #main {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+nav #side-nav {
+}
+
+a {
+  text-decoration: none;
+  color: #007e7e;
+}
+
+a:active {
+  background: #007e7e;
+  padding: 0.5em 2em 0.5em 2em;
+  color: white;
 }

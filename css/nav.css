@@ -1,29 +1,32 @@
-nav ul {
+nav #main ul {
   align-items: center;
   background-color: green;
   padding: 1rem;
   list-style-type: none;
 }
 
-nav li {
+nav #main li {
   padding: 0.5em 2em 0.5em 2em;
 }
 
-nav a {
+nav #main a {
   color: blue;
   text-decoration: none;
   font-weight: bold;
   margin-right: 1rem;
 }
 
-nav a:hover {
+nav #main a:hover {
   color: red;
 }
 
-nav {
+nav #main {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.2em;
+}
+
+nav #side-nav {
 }
 
 a {

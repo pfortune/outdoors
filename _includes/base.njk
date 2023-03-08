@@ -13,6 +13,14 @@
     <main>
       <article id="maincontent">
         {{ content | safe }}
+
+        {% if page
+          .url
+          .includes('journal') %}
+          <aside>
+            {%include "side_nav.njk"%}
+          </aside>
+        {% endif %}
       </section>
     </main>
 
