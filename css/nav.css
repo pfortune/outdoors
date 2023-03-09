@@ -5,18 +5,18 @@ nav #main ul {
   list-style-type: none;
 }
 
-nav #main li {
+nav li {
   padding: 0.5em 2em 0.5em 2em;
 }
 
-nav #main a {
+nav#main a {
   color: blue;
   text-decoration: none;
   font-weight: bold;
   margin-right: 1rem;
 }
 
-nav #main a:hover {
+nav#main a:hover {
   color: red;
 }
 

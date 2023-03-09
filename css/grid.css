@@ -11,12 +11,12 @@ header {
   text-align: center;
 }
 
-nav {
+nav.main {
   grid-column-start: 2;
   grid-column-end: 5;
 }
 
-nav {
+nav.main {
   display: flex;
   justify-content: space-around;
 }
@@ -42,4 +42,5 @@ aside {
 
 footer {
   grid-column-start: 2;
+  grid-column-end: 5;
 }
