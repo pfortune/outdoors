@@ -6,17 +6,23 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+header,
+h1,
+h2 {
+  text-align: center;
+}
+
 h1,
 h2 {
   color: #007e7e;
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 130%;
+  font-size: 2em;
 }
 
 p {
