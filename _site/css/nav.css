@@ -1,19 +1,5 @@
 a {
   text-decoration: none;
-  color: #007e7e;
-}
-
-nav .active {
-  background: #007e7e;
-  padding: 0.5em 2em 0.5em 2em;
-  color: white;
-}
-
-nav.main a {
-  color: blue;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5em 2em 0.5em 2em;
 }
 
 nav.main {
@@ -22,6 +8,47 @@ nav.main {
   font-size: 1.2em;
 }
 
+nav.main a,
+nav.main .active {
+  color: #2f412e;
+  font-weight: bold;
+  padding: 0.5em 2em;
+}
+
+nav.main .active {
+  background: #f1bf37;
+  color: white;
+}
+
 nav.main a:hover {
-  color: red;
+  color: #486150;
+}
+
+nav.side-nav {
+  background-color: #b2c9be;
+  padding: 20px;
+  border-radius: 20px 0;
+  border: dashed #1b3b48;
+}
+
+nav.side-nav ul {
+  padding: 0;
+}
+
+nav.side-nav li {
+  padding: 5px 0;
+  list-style: none;
+}
+
+nav.side-nav .active {
+  font-weight: 900;
+  color: #1b3b48;
+}
+
+nav.side-nav a {
+  color: #486150;
+}
+
+nav.side-nav a:hover {
+  color: #1b3b48;
 }
