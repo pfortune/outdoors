@@ -28,11 +28,26 @@ nav.main {
 main {
   grid-column-start: 2;
   grid-column-end: 5;
+}
+
+section {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
 article {
   grid-column-start: 1;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 1 0 20%;
+  margin: 10px;
 }
 
 aside {
