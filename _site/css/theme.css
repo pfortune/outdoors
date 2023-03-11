@@ -60,6 +60,12 @@ nav #main {
 }
 
 /* Footer  */
+footer {
+  background-color: #263321;
+  height: 100px;
+}
+
 footer #copyright {
+  color: #f1bf37;
   text-align: center;
 }

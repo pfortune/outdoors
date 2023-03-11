@@ -28,6 +28,7 @@ nav.main {
 main {
   grid-column-start: 2;
   grid-column-end: 5;
+  display: grid;
 }
 
 section {
