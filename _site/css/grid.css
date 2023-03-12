@@ -1,7 +1,7 @@
 /* Grid & Flexbox*/
 body {
   display: grid;
-  grid-template-columns: 10% 20% 20% 20% 10%;
+  grid-template-columns: 18% 20% 20% 20% 18%;
   grid-gap: 20px;
 }
 
