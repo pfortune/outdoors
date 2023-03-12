@@ -76,7 +76,6 @@ footer #copyright {
 
 /* Table */
 table {
-  border-collapse: collapse;
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
