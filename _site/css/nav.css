@@ -10,14 +10,18 @@ nav.main {
 
 nav.main a,
 nav.main .active {
-  color: #2f412e;
+  color: #263321;
   font-weight: bold;
   padding: 0.5em 2em;
 }
 
 nav.main .active {
   background: #f1bf37;
-  color: white;
+  color: #f4f4f4;
+}
+
+nav.main a.active:hover {
+  color: #f4f4f4;
 }
 
 nav.main a:hover {
@@ -28,7 +32,7 @@ nav.side-nav {
   background-color: #b2c9be;
   padding: 20px;
   border-radius: 20px 0;
-  border: dashed #1b3b48;
+  border: dashed #263321;
 }
 
 nav.side-nav ul {
@@ -37,12 +41,13 @@ nav.side-nav ul {
 
 nav.side-nav li {
   padding: 5px 0;
+  font-size: 0.8em;
   list-style: none;
 }
 
 nav.side-nav .active {
   font-weight: 900;
-  color: #1b3b48;
+  color: #263321;
 }
 
 nav.side-nav a {
@@ -50,5 +55,5 @@ nav.side-nav a {
 }
 
 nav.side-nav a:hover {
-  color: #1b3b48;
+  font-weight: 600;
 }
