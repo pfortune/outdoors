@@ -53,9 +53,12 @@ article {
 
 aside {
   grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 footer {
   grid-column-start: 2;
   grid-column-end: 5;
+  display: flex;
+  justify-content: space-evenly;
 }
