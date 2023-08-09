@@ -1,7 +1,7 @@
 /* Grid & Flexbox*/
 body {
   display: grid;
-  grid-template-columns: 18% 20% 20% 20% 18%;
+  grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
   grid-gap: 20px;
 }
 
@@ -61,4 +61,23 @@ footer {
   grid-column-end: 5;
   display: flex;
   justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    grid-template-columns: 10px 1fr 10px; /* Adjust as needed */
+  }
+
+  header,
+  nav.main,
+  main,
+  aside,
+  footer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .gallery-item {
+    flex: 1 0 calc(33.333% - 20px); /* Example for 3 items per row, adjust as needed */
+  }
 }
